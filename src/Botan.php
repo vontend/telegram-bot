@@ -69,7 +69,7 @@ class Botan
                 'Content-Type: application/json'
             ],
             CURLOPT_POSTFIELDS => $message->toJson(),
-            CURLOPT_TIMEOUT => 5,
+            CURLOPT_TIMEOUT => 30,
         ];
 
         curl_setopt_array($this->curl, $options);
