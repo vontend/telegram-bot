@@ -1,5 +1,6 @@
 {
     "name": "vontend/telegram-bot",
+    "prefer-stable": true,
     "description": "PHP Wrapper for Telegram Bot API",
     "keywords": [
         "php",
